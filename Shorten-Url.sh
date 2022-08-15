@@ -18,7 +18,8 @@ echo -e "\e[35m\ \| '_ \ / _ \| '__| __/ _ \ '_ \ _____/ / \ \ '__| | "
 echo -e "\e[35m_\ \ | | | (_) | |  | ||  __/ | | |_____\ \_/ / |  | | "
 echo -e "\e[35m\__/_| |_|\___/|_|   \__\___|_| |_|      \___/|_|  |_| "
 echo -e "\e[1;37m            										   "
-echo -e "\e[31m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 " 
+
+echo -e "\e[35m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 " 
 sleep 2
 echo -e "\e[1;37m									"
 echo -e "\e[1;37m 			ingresa la url a continuacion:			 "
@@ -45,18 +46,18 @@ echo -en "\e[32m=>\e[0m "
 read words
 if [[ -z "$words" ]]; then
 echo -e "\e[31m[!] No words.\e[0m"
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating  Phishing  Link...\n"
 final=$mask@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Phishing URL:\e[32m ${final} \e[0m\n"
 exit
 fi
 if [[ "$words" =~ " " ]]; then
 echo -e "\e[31m[!] Invalid words. Please avoid space.\e[0m"
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Phishing URL:\e[32m ${final} \e[0m\n"
 exit
 fi
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating Phishing  Link...\n"
 final=$mask-$words@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Phishing  URL:\e[32m ${final} \e[0m\n"

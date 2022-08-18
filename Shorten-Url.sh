@@ -10,24 +10,18 @@ url_checker() {
 }
 
 clear
+cd /data/data/com.termux/files/home/Shorten-Url 
+lolcat box.cow 
 
-
-echo -e "\e[35m __ _                _                              _ "
-echo -e "\e[35m/ _\ |__   ___  _ __| |_ ___ _ __        /\ /\ _ __| | "
-echo -e "\e[35m\ \| '_ \ / _ \| '__| __/ _ \ '_ \ _____/ / \ \ '__| | "
-echo -e "\e[35m_\ \ | | | (_) | |  | ||  __/ | | |_____\ \_/ / |  | | "
-echo -e "\e[35m\__/_| |_|\___/|_|   \__\___|_| |_|      \___/|_|  |_| "
-echo -e "\e[1;37m            										   "
-
-echo -e "\e[35m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 " 
+echo -e "\e[35m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 "
 sleep 2
-echo -e "\e[1;37m									"
-echo -e "\e[1;37m 			ingresa la url a continuacion:			 "
+echo -e "\e[1;37m                                                                       "
+echo -e "\e[1;37m                       ingresa la url a continuacion:                   "
 echo -e "\e[1;37m                                   "
-sleep 1 
+sleep 1
 echo -e "\e[1;37m             ingresalo ahora                       "
 read phish
-url_checker $phish 
+url_checker $phish
 sleep 1
 
 echo "Processing and Modifing Phishing URL"

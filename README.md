@@ -12,6 +12,9 @@ PARÁ DISFRAZAR URL COMO NGROK,CLOUDFLARE ETC
 ```
 git clone https://github.com/Arturo254/Shorten-Url
 
+cd Shoten-Url
+
+
 chmod +x * 
 
 chmod 777 * 

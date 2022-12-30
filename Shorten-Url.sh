@@ -15,11 +15,9 @@ lolcat box.cow
 
 echo -e "\e[35m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 "
 sleep 2
-echo -e "\e[1;37m                                                                       "
-echo -e "\e[1;37m                       ingresa la url a continuacion:                   "
-echo -e "\e[1;37m                                   "
-sleep 1
-echo -e "\e[1;37m             ingresalo ahora                       "
+echo -e "\e[1;37m                                              "
+echo -e "\e[1;37m ingresa la url a continuacion: "
+echo -en "\e[32m=>\e[0m " 
 read phish
 url_checker $phish
 sleep 1

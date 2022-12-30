@@ -5,9 +5,7 @@ PARÁ DISFRAZAR URL COMO NGROK,CLOUDFLARE ETC
 # Instalación 
 
 
-<p align="centre">
-<img src="https://i.ibb.co/1mkzBb8/Screenshot-20220910-215723-com-termux.jpg" alt="Script">
-</p> 
+<a href='https://postimg.cc/MM6QNTRb' target='_blank'><img src='https://i.postimg.cc/d1dj7ZVX/Picsart-22-12-29-19-21-38-835.png' border='0' alt='Picsart-22-12-29-19-21-38-835'/></a>
 
 ```
 git clone https://github.com/Arturo254/Shorten-Url

@@ -26,8 +26,8 @@ echo "Processing and Modifing Phishing URL"
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
-echo 'Domain to mask the Phishing URL (with http or https), ex: https://google.com, http
+echo -e "\n\e[1;31;42m <Disguising your link : >\e[0m"
+echo 'PHISHING TOOL BY ARTURO (with http or https), ex: https://google.com, http
 ://anything.org) :'
 echo -en "\e[32m=>\e[0m "
 read mask

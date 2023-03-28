@@ -1,5 +1,8 @@
 #!/bin/bash/
 
+##
+
+
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
@@ -10,7 +13,7 @@ url_checker() {
 }
 
 clear
-cd /data/data/com.termux/files/home/Shorten-Url 
+cd $PWD
 lolcat box.cow 
 
 echo -e "\e[35m CREATED BY ARTURO (GITHUB)https://github.com/Arturo254 "
